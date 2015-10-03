@@ -13,9 +13,10 @@ ul li {
 }
 
 div form {
-	position: relative;
+	position: absolute;
 	left: 650px;
-	top: 200px;
+	top: 300px;
+	border: 1px solid #D9D9D9;
 }
 
 div form input {
@@ -41,6 +42,18 @@ div form input {
 	border: 1px solid black;
 }
 
-.footer {
+.footers {
 	background-color: #F2F2F2;
+	height: 45px;
+	position: relative;
+	bottom: 0px;
+	top: 820px;
+}
+
+#left-foot {
+	float: left;
+}
+
+#right-foot {
+	float: right;
 }
